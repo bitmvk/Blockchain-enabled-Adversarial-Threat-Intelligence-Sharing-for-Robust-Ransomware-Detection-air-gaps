@@ -1,0 +1,18 @@
+# Python / notebook runtime artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# Local agent/tool state
+.agents/
+.codex/
+
+# Generated experiment charts. The conceptual diagram is tracked separately.
+charts/*.png
+charts/*.svg
+charts/*.tif
+!charts/Conceptual Diagram of the Hybrid Cybersecurity PoC.drawio.png
+
+# Notebook export artifact
+main.py.py
